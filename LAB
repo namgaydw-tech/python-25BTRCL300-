@@ -1,0 +1,5 @@
+A= dict(name='John', age=30, city='New York')
+print(A.get('city'))  # Output: New York
+print(A.update({'city': 'paro'}))  # Output: None
+A.values()
+print(A)  # Output: {'name': 'John', 'age': 30, 'city': 'paro'}

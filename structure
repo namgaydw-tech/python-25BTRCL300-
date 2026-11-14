@@ -1,0 +1,6 @@
+stu={
+    "name": "Namgay",
+    "subjects": ["Math", "Science", "English"]
+}
+print(stu.get("name"))  # Output: Namgay
+print(stu.get("subjects"))  # Output: ['Math', 'Science', 'English']
